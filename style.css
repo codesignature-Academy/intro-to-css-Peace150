@@ -3,3 +3,47 @@
   padding: 0;
   box-sizing: border-box;
 }
+header h1{
+  font-size: 40px;
+}
+header{
+  display: flex;
+  width: 100vw;
+  height: 20vh;
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 60px;
+}
+a{
+  font-size: 40px;
+  text-decoration: none;
+}
+nav a{
+  margin: 20px;
+}
+.container{
+  width: 100vw;
+  height: 80vh;
+  background-color: rgb(41, 184, 41);
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 100px;
+}
+.card1{
+  padding-top: 200px;
+  width: 30vw;
+  height: 50vh;
+  background-color: rgb(91, 88, 88);
+  margin: 80px;
+  border-bottom-right-radius: 2cqmax;
+  border-top-left-radius: 2cqmax;
+  border-color: red;
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(227, 179, 108);
+}
+.card1:hover{
+  background-color: blue;
+  color: #fff;
+}
